@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+h1 , h2{
+    margin: 0;
+    color:white;
+}
+
+.main-edd h2{
+    margin: 10px 10px;
+}
+
+.main-edit h2{
+    margin: 10px 10px;
+}
+.stndent-table{
+    margin: 10px 0px;
+}
+
+header{
+    background-color: rgb(197, 45, 45);
+    background-image: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/07/CSS-background-gradient-featured.jpg);
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-bottom: 10px solid rgba(10, 212, 40, 0.753);
+    border-image: url(https://cdn.pixabay.com/photo/2014/01/22/19/44/flower-field-250016_640.jpg);
+    
+}
+
+
+/*  crud operation   */
+
+
+.crud-form{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+label{
+    display: block;
+    color: rgb(219, 217, 217);
+}
+
+.addform{
+    background-color: rgb(180, 168, 119);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7nwmlcG4DuOFnw-6Jag5IUk7j2PoMh0bY7g&s);
+    padding: 30px;
+    max-width: 500px;
+    box-shadow: 10px 10px 10px rgb(139, 74, 125);
+    border-radius: 60px;
+    border-bottom: 20px;
+}
+.addinputs{
+    margin: 10px 0px;
+    width: 100%;
+}
+.inputs{
+    padding: 10px;
+    width: 100%;
+}
+input[type='submit']{
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    background-color: rgb(5, 250, 74);
+    color: rgb(247, 244, 244);
+    font-size: 16px;
+    font-weight: bold;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCkf2Cey1qP0gXJFTUJ2KuoIplqb1lwRgAgQ&s);
+    border-radius: 50px;
+}
+
+input[type='submit']:hover{
+    background-color: rgb(233, 230, 230);
+    background-image: url(https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-169994-674010.jpg&fm=jpg);
+}
+.text-area{
+    resize: nome;
+}
+.text-area:focus{
+    border: 0;
+    outline: 0;   
+}
+.addinputs label{
+    margin: 5px 0px;
+}
+.mainback{
+    padding: 20px;
+    background-image: url(https://www.befunky.com/images/prismic/f5ca4181-01da-4237-92bf-b6938359503e_hero-blur-image-5.jpg?auto=avif,webp&format=jpg&width=896);
+
+}

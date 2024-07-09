@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Roboto:ital,wght@0, 100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&
+display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <header>
+        <h1>Javascript CRUD Operation app</h1>
+    </header>
+    <main class="mainback">
+        <section>
+            <div class="crud-form">
+                <div class="main-edd">
+                    <h2>student ADD data form</h2>
+                    <form class="addform" action="" id="AddForm">
+                        <div class="addinputs">
+                            <label for="">StudentName</label>
+                            <input class="inputs" type="text" placeholder="StudentName" id="studentADDname"
+                                name="studentADDname" value="">
+                        </div>
+                        <div class="addinputs">
+                            <label for="">studentAge</label>
+                            <input class="inputs" type="text" placeholder="studentAge" id="studentAge"
+                                name="studentAge" value="">
+                        </div>
+                        <div class="addinputs">
+                            <label for="">studentEmail</label>
+                            <input class="inputs" type="email" placeholder="studentEmail" id="studentEmail"
+                                name="studentEmail" value="">
+                        </div>
+                        <div class="addinputs">
+                            <label for="">studentPhoneNo</label>
+                            <input class="inputs" type="tel" placeholder="studentPhoneNo" id="studentPhoneNo"
+                                name="studentPhoneNo" value="">
+                        </div>
+                        <div class="addinputs">
+                            <label for="">studentAddress</label>
+                            <input class="inputs" type="tel" placeholder="studentAddress" id="studentAddress"
+                                name="studentAddress" value="">
+                        </div>
+                        <div>
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="main-edit">
+                    <h2>student EDIT Data Form</h2>
+                    <form class="addform" action="" id="EditForm">
+                        <div class="addinputs">
+                            <label for="">StudentName</label>
+                            <input class="inputs" type="text" placeholder="StudentName" id="studentEDITname"
+                                name="studentEDITname" value="">
+                        </div>
+                        <div class="addinputs">
+                            <label for="">studentAge</label>
+                            <input class="inputs" type="text" placeholder="studentAge" id="studentAge"
+                                name="studentAge" value="">
+                        </div>
+                        <div class="addinputs">
+                            <label for="">studentEmail</label>
+                            <input class="inputs" type="email" placeholder="studentEmail" id="studentEmail"
+                                name="studentEmail" value="">
+                        </div>
+                        <div class="addinputs">
+                            <label for="">studentPhoneNo</label>
+                            <input class="inputs" type="tel" placeholder="studentPhoneNo" id="studentPhoneNo"
+                                name="studentPhoneNo" value="">
+                        </div>
+                        <div class="addinputs">
+                            <label for="">studentAddress</label>
+                            <input class="inputs" type="tel" placeholder="studentAddress" id="studentAddress"
+                                name="studentAddress" value="">
+                        </div>
+                        <div>
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <h2>Student Data View Table</h2>
+                    <div class="student-table"></div>
+                </div>
+                 </div>
+            </div>
+        </section>
+    </main>
+  <script src="index.js"></script>
+</body>
+</html>
